@@ -10,47 +10,32 @@
     <script src="https://kit.fontawesome.com/facd5daff4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-		<nav class ="navBar">
-			<a href="index.html">Home</a>
-           <a class =learnMore href="#">Learn More</a> 
-           <a href="#">About us</a>
-           <a href="contact.html">Contact us</a> 
-        </nav>
-        
-        <section class = "header">
 
-        	<h2 class="title mb">Meet the trainers</h2>
-
-        	<div class="row card-container">
-        		<div class="four columns card-1">
-        			<div class="card-content">
-
-        				<h2>Solomon Hayes</h2>
-        				<h5>Assistant Head Trainer</h5>
-        				<p class = "p-card">Strength, Conditioning & Fitness</p>
-        				<a href="" class = "a-card">Read Bio...</a>
-
-        			</div>
-
-        		</div>
-
-        		
-
-
-        		<div class="four columns">
-        			<h2>Jawad Timms</h2>
-        			<h5>Head Strength & Stamina Trainer</h5>
-        			<p>Strength and Fitness</p>
-        			<a href="">Read Bio...</a>
-        		</div>
-
-        		<div class="four columns">
-        			<h2>Mollie Peaks</h2>
-        			<h5>Rock Climbing Trainer</h5>
-        			<p>Hand Strength & Eye Coordination</p>
-        			<a href="">Read Bio...</a>
-        		</div>
-        	</div>
-        </section>
+    
+        <form>
+     <div class="row">
+        <div class="six columns">
+        <label for="exampleEmailInput">Your email</label>
+        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+     </div>
+     
+    <div class="six columns">
+      <label for="exampleRecipientInput">Reason for contacting</label>
+      <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Questions</option>
+        <option value="Option 2">Admiration</option>
+        <option value="Option 3">Can I get your number?</option>
+      </select>
+    </div>
+  </div>
+  <label for="exampleMessage">Message</label>
+  <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+  <label class="example-send-yourself-copy">
+    <input type="checkbox">
+    <span class="label-body">Send a copy to yourself</span>
+  </label>
+  <input class="button-primary" type="submit" value="Submit">
+</form>
+		
 </body> 
 </html>
